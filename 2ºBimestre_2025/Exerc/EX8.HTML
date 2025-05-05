@@ -1,0 +1,25 @@
+<Script>
+    let Escola = {
+        Prof : ["Ana Paula", "Diogo"],
+        Alunos: ["Henrique", "Pedro"],
+        Materias: ["PW-II", "D.S"]
+    };      
+    
+    Escola.Prof.push("Gabriel");
+
+    Escola.Alunos.push("Guilherme");
+
+    Escola.Materias.push("Banco de dados");
+
+    console.log("Dados da Escola:");
+
+    console.log("\nProf:");
+    Escola.Prof.forEach(function(prof) {console.log(`- ${prof}`);});
+
+    console.log("\nAluno:");
+    Escola.Alunos.forEach(function(aluno) {console.log(`- ${aluno}`);});
+
+    console.log("\nMaterias:");
+    Escola.Materias.forEach(function(materia) {console.log(`- ${materia}`);});
+
+</Script>
