@@ -1,25 +1,34 @@
 <Script>
-    let Escola = {
-        Prof : ["Ana Paula", "Diogo"],
-        Alunos: ["Henrique", "Pedro"],
-        Materias: ["PW-II", "D.S"]
-    };      
-    
-    Escola.Prof.push("Gabriel");
+    let Escola = []
 
-    Escola.Alunos.push("Guilherme");
+    Escola['Prof'] = []
+    Escola['Aluno'] = []
+    Escola['Materia'] = []
 
-    Escola.Materias.push("Banco de dados");
+    Escola['Prof'] [0]= 'Ana';
+    Escola['Prof'] [1]= 'Diogo';
+
+    Escola['Aluno'] [0]= 'Pedro';
+    Escola['Aluno'] [1]= 'Leonardo';
+
+    Escola['Materia'] [0]= 'PW-II';
+    Escola['Materia'] [1]= 'D.S';
+       
+    Escola['Prof'].push("Felipe");
+
+    Escola['Aluno'].push("Guilherme");
+
+    Escola['Materia'].push("S.E");
 
     console.log("Dados da Escola:");
 
-    console.log("\nProf:");
-    Escola.Prof.forEach(function(prof) {console.log(`- ${prof}`);});
+    console.log("\nProf");
+    Escola['Prof'].forEach(function(prof) {console.log(`- ${prof}`);});
 
-    console.log("\nAluno:");
-    Escola.Alunos.forEach(function(aluno) {console.log(`- ${aluno}`);});
+    console.log("\nAluno");
+    Escola['Aluno'].forEach(function(aluno) {console.log(`- ${aluno}`);});
 
-    console.log("\nMaterias:");
-    Escola.Materias.forEach(function(materia) {console.log(`- ${materia}`);});
+    console.log("\nMateria");
+    Escola['Materia'].forEach(function(materia) {console.log(`- ${materia}`);});
 
 </Script>
