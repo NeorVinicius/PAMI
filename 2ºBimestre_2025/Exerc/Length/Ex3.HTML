@@ -1,8 +1,11 @@
 <Script>
     let Nome = prompt('Informe seu nome:');
     let Sobrenome = prompt('Informe seu sobre nome');
-    
-    let nomeSebrenome = Nome + Sobrenome
 
+    if (Nome.length < 3) {
+        console.log('');
+    }else{
+        console.log('Primeiro Nome ' + Nome + ", Segundo Nome " + Sobrenome + ", Nome Completo " + Nome + " " + Sobrenome)
+    }
     
 </Script>
