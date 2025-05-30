@@ -3,7 +3,10 @@
     let Sobrenome = prompt('Informe seu sobre nome');
 
     if (Nome.length < 3) {
-        console.log('');
+        console.log('Não tem Mais de 3 caracteres no nome!');
+    }
+    else if (Sobrenome.length < 3) {
+        console.log('Não tem Mais de 3 caracteres no sobrenome!');
     }else{
         console.log('Primeiro Nome ' + Nome + ", Segundo Nome " + Sobrenome + ", Nome Completo " + Nome + " " + Sobrenome)
     }

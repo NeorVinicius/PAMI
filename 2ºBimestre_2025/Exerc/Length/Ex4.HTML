@@ -1,10 +1,17 @@
 <Script>
 
-let numero = 1599655555;
+let numero = 1599681555;
 
-numero = numero.split("");
+numeros = numero.split("");
 
 numero[0];
 numero[1];
 
+console.log(numeros);
+
+if (numeros.length < 11 && numeros != "#","@","$") {
+    console.log('Numero valido');
+}else{
+    console.log('Numero invalido');
+}
 </Script>
