@@ -1,7 +1,8 @@
 <Script>
-    let Nome = prompt("Informe seu nome completo:");
+    let strig = prompt("Informe quantos nomes você tem:");
 
-    for (let index = 0; index < Nome.length; index++) {
+    for (let index = 1; index <= strig; index++) {
+        let Nome = prompt("Informe seu nome completo:");
         let Inicial = Nome.charAt(0);
         
         console.log(Inicial);
