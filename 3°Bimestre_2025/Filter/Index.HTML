@@ -1,0 +1,98 @@
+<Script>
+    const veiculos = [
+    {
+    nome: "Ferrari F40",
+    ano: 1990,
+    preco: 2000000,
+    modelo: "Supercarro",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Ford Fiesta",
+    ano: 2018,
+    preco: 45000,
+    modelo: "Hatch",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Chevrolet Onix",
+    ano: 2020,
+    preco: 58000,
+    modelo: "Hatch",
+    tipoCombustivel: "Flex"
+  },
+  {
+    nome: "Volkswagen Gol",
+    ano: 2017,
+    preco: 39000,
+    modelo: "Hatch",
+    tipoCombustivel: "Etanol"
+  },
+  {
+    nome: "Toyota Corolla",
+    ano: 2021,
+    preco: 95000,
+    modelo: "Sedan",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Honda Civic",
+    ano: 2019,
+    preco: 87000,
+    modelo: "Sedan",
+    tipoCombustivel: "Flex"
+  },
+  {
+    nome: "Apollo EVO",
+    ano: 2023,
+    preco: 2500000,
+    modelo: "Supercarro",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Koenigsegg CC850",
+    ano: 2023,
+    preco: 32000000,
+    modelo: "Supercarro",
+    tipoCombustivel: "Gasolina"
+  },
+ 
+  {
+    nome: "Nissan Kicks",
+    ano: 2021,
+    preco: 97000,
+    modelo: "SUV",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Honda NSX",
+    ano: 2020,
+    preco: 1600000,
+    modelo: "Supercarro",
+    tipoCombustivel: "Gasolina"
+  },
+  {
+    nome: "Fiat Strada",
+    ano: 2022,
+    preco: 85000,
+    modelo: "Picape",
+    tipoCombustivel: "Flex"
+  },
+  {
+    nome: "Koenigsegg Jesko",
+    ano: 2023,
+    preco: 30000000,
+    modelo: "Supercarro",
+    tipoCombustivel: "Gasolina"
+  }
+];
+
+  let veiculos_seminovos = veiculos.filter(veiculo =>veiculo.ano <= 2024);
+  let veiculos_novos = veiculos.filter(veiculo =>veiculo.ano == 2025);
+  let veiculo_antigo = veiculos.filter(veiculo =>veiculo.ano <= 2000);
+  console.log(veiculos_seminovos);
+  console.log(veiculos_novos);
+  console.log(veiculos_antigo);
+
+
+</Script>
