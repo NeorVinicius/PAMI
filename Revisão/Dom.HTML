@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="lista"></div>
+    <button onclick="aplicarJS()">Aplicar Estilo</button>
+
+    <Script>
+        function aplicarJS() {
+            let lista = document.getElementById('lista');
+            console.log(lista);
+            lista.style.color = 'Blue';
+            lista.innerText = 'Nossa';
+            lista.innerHTML = '<i>No Wordcup !</i> ';
+            lista.style.marginTop = '30 px';
+            lista.style.marginBottom = '30 px';
+            lista.style.paddingTop = '30 px';
+            lista.style.paddingLeft = '30 px';
+            lista.style.fontFamily = 'Comic Sans MS';
+            lista.style.fontSize = '21 px';
+            lista.style.borderTop = 'solid';
+            lista.style.borderWidth = '20 px';
+        }
+
+    </Script>
+
+</body>
+</html>
